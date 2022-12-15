@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.symbol img{
+    width:50px;
+    height:50px;
+}
+.nav-right-img img{
+    width: 15px;
+    height:21px;
+    margin-top: 15px;
+}
+.container{
+    padding-top: 20px;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+li{
+    display: inline;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.sub-container{
+    width: 1440px;
+    height: 50px;
+    display:flex;
+    justify-content: space-between;
+}
+.nav-left{
+    margin-left: -45rem;
+}
+.nav-left li{
+    margin-left: 30px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right li{
+    margin:1px
+}
+.a{
+    border-radius: 50px;
+    width:79px;
+    height: 33px;
+}
+.b{
+    width: 93.29px;
+    height:32.8px ;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-right-bar li{
+    margin-right: 20px;
+}
+.pic_life{
+    background: #1e3932;
+    display: flex;
+}
+.pic_life-img img{
+    width: 720px;
+    height:625px;
+}
+.pick_text-head-heading{
+    font-size: 50px;
+    color: white;
+}
+.pic_text-text p{
+    font-size: 24px;
+    color: white;
+}
+.play{
+    background: #1e3932;
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    border-color: white;
+    border: 1px solid;
+    font-weight: 600;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+.pic_text-block{
+text-align: center;
+width: 518px;
+margin-left: 106px;
+    margin-top: 177px;
+    
+
+}
+.pic_life{    
+    margin-top: 33px;
+    margin-left: 40px;
+    margin-right: 39px;
+}
+
+/*second*/
+.starbucks_teaSugar{
+    display: flex;
+    background: #d50032;
+    margin-left: 40px;
+    margin-right: 39px;
+    margin-top: 35px;
+}
+.starbucks_teaSugar-right img{
+    width: 725px;
+    height:620px;
+}
+.starbucks_teaSugar-right{
+    margin-left: auto;
+}
+.starbucks_teaSugar-left-textblock{
+    text-align: center;
+    font-size: 24px;
+    color:#ffffff;
+    margin-left: 79px;
+    margin-top: 171px
+}
+.starbucks_teaSugar-left-textblock-heading{
+width: 562px;
+letter-spacing: 2px;
+}
+.starbucks_teaSugar-left-textblock-paragraph{
+    width: 577px;
+}
+.btn-orderNow{
+    border-radius: 50px;
+    color: white;
+    font-size: 17px;
+    border-color: white;
+    border: 1px solid;
+    font-weight: 600;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    background: #d50032;
+}
+
+
+/*3rd */
+
+.jolly{
+    display: flex;
+    background: #00b388;
+    margin-left: 40px;
+    margin-right: 39px;
+    margin-top: 35px;
+}
+.jolly-left img{
+    width: 725px;
+    height: 620px;
+}
+.jolly-right{
+    text-align: center;
+    
+}
+.jolly-right-textblock{
+    color: #1e3932;
+    text-align: center;
+    font-size: 24px;
+    margin-left: 79px;
+    margin-right: 90px;
+    margin-top: 198px;
+}
+
+.jolly-right-textblock-heading{
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.jolly-right-textblock-paragraph{
+    font-weight: 500;
+}
+.jolly-right-textblock-btn{
+}
+.jolly-right-textblock-btn-orderNow{
+    border-radius: 50px;
+    color: #1e3932;
+    font-size: 17px;
+    border-color: #1e3932;
+    border: 1px solid;
+    font-weight: 600;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    background:#00b388;
+    
+}
+
+
+/*4 th*/
+.sandwich{
+    display: flex;
+    background: #006241;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+.sandwich-left img{
+    width: 720px;
+    height: 420px;
+}
+.sandwich-right-textblock{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 124px;
+    margin-top: 98px;
+}
+.sandwich-right-textblock-heading{
+    font-size: 25px;
+}
+.sandwich-right-textblock-btn-btn{
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    border: 1px solid;
+    font-weight: 600;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    background:#006241;
+
+}
+.sandwich-right-textblock-paragraph{
+    font-size: 17px;
+    font-weight: 600;
+    width: 497px;
+    line-height: 1.9;
+    letter-spacing: .4px;
+}
+
+
+
+/*5th*/
+.uberEats{
+    display: flex;
+    background: #1e3932;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+
+.uberEats-right img{
+    width: 720px;
+    height: 420px;
+    margin-left: 98px;
+}
+.uberEats-textblock{
+    text-align: center;
+    color: #ffffff;
+    margin-left: 124px;
+    margin-top: 98px;
+
+}
+.uberEats-textblock-heading{
+    font-size: 25px;
+}
+.uberEats-textblock-paragraph{
+    font-size: 17px;
+    font-weight: 600;
+    width: 497px;
+    line-height: 1.9;
+    letter-spacing: .4px;
+}
+.uberEats-textblock-btn-btn{
+    border-radius: 50px;
+    color: #ffffff;
+    font-size: 17px;
+    border-color: #ffffff;
+    border: 1px solid;
+    font-weight: 600;
+    border-width: 1px;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    background:#1e3932;
+}
+
+
+
+/*paragraph*/
+.paragraph-container{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+.paragraph{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 1.8;
+    width: 657px;
+    margin-left: 28rem;
+    margin-top: 73px;
+}
+.pos{
+    margin-bottom: 95px;
+}
+
+
+
+/*list*/
+.downlist li{
+    display: block !important;
+    color: #00000094;
+    font-weight: 400;
+    margin-top: 34px;
+}
+.downlist{
+    display: flex;
+   
+}
+.list-one-head h3{
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.list-one-list{
+    width: 232px;
+}
+
+.symbols{
+    margin-top: 40px;
+    margin-left: 7px;
+
+}
+
+.symbols img{
+    width:32px;
+    height: 32px;
+}
+.symbols li{
+    margin-right: 13px;
+}
+.bottom-list li{
+    margin-right: 1px;
+    border-right: 1px black solid;
+    padding:0px 20px 0px 25px;
+    font-weight: 500;
+}
+
+.rights p{
+    color: #00000094;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 64px;
+}
+.bottom-list{
+    margin-top: 26px;
+    margin-left: -14px;
+}
+.rights{
+    margin-top: 21px;
+    margin-left: -12px
+}
